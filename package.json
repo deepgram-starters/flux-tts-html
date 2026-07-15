@@ -1,0 +1,45 @@
+{
+  "name": "@deepgram/flux-tts-html",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pure HTML/CSS/JS frontend for Deepgram Flux (v2 Speak / streaming TTS)",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "deepgram",
+    "flux",
+    "text-to-speech",
+    "tts",
+    "speak-v2",
+    "streaming",
+    "html",
+    "javascript",
+    "css",
+    "audio"
+  ],
+  "author": "Deepgram",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepgram-starters/flux-tts-html.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@deepgram/styles": "0.2.15"
+  },
+  "devDependencies": {
+    "vite": "7.3.2"
+  }
+}
