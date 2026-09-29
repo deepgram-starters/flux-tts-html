@@ -29,7 +29,7 @@
     "url": "https://github.com/deepgram-starters/flux-tts-html.git"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "^20.19.0 || >=22.12.0"
   },
   "browserslist": [
     "defaults",
