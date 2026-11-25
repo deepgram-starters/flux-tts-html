@@ -21,7 +21,7 @@
     }
 
     /* Column Styling */
-    .dg-column--sidebar-left {
+    .dg-columns__column--left {
       border-right: 1px solid rgba(255, 255, 255, 0.1);
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       background: var(--dg-almost-black, #050506);
@@ -29,7 +29,7 @@
       height: 100%;
     }
 
-    .dg-column--main {
+    .dg-columns__column--center {
       background: var(--dg-background, #0b0b0c);
       overflow: hidden;
       display: flex;
@@ -37,7 +37,7 @@
       height: 100%;
     }
 
-    .dg-column--sidebar-right {
+    .dg-columns__column--right {
       border-left: 1px solid rgba(255, 255, 255, 0.1);
       border-top: 1px solid rgba(255, 255, 255, 0.1);
       background: var(--dg-almost-black, #050506);
@@ -45,14 +45,14 @@
       height: 100%;
     }
 
-    @media (min-width: 768px) {
-      .dg-column--sidebar-right {
+    @media (min-width: 1280px) {
+      .dg-columns__column--right {
         border-top: none;
       }
     }
 
     @media (min-width: 1024px) {
-      .dg-column--sidebar-left {
+      .dg-columns__column--left {
         border-bottom: none;
       }
     }
@@ -310,7 +310,7 @@
     <div class="dg-columns__wrapper" style="height: 100%;">
 
       <!-- Left Sidebar: Configuration -->
-      <aside class="dg-column dg-column--sidebar-left dg-column--lg">
+      <aside class="dg-columns__column dg-columns__column--left dg-columns__column--lg">
         <div class="dg-content-box">
           <h3 class="dg-form-label" style="margin-bottom: 1rem;">Configuration</h3>
 
@@ -344,7 +344,7 @@
       </aside>
 
       <!-- Main Content: Playback & Transcript -->
-      <main class="dg-column dg-column--main">
+      <main class="dg-columns__column dg-columns__column--center">
         <div class="main-content-container">
           <!-- Connect Overlay -->
           <div class="connect-overlay" id="connect-overlay">
@@ -400,7 +400,7 @@
     </div><!-- end dg-columns__wrapper -->
 
     <!-- Right Sidebar: Status & Metadata -->
-    <aside class="dg-column dg-column--sidebar-right">
+    <aside class="dg-columns__column dg-columns__column--right">
       <div class="dg-content-box">
         <h3 class="dg-form-label" style="margin-bottom: 1rem;">Status</h3>
 
